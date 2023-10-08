@@ -1,0 +1,653 @@
+* {
+    margin: 1%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    scroll-behavior: smooth;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.container {
+    margin-left: 10%;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 75%;
+    margin-left: 6%;
+}
+
+.bar {
+    list-style: none;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.hamburger {
+    display: none;
+}
+
+.bar :hover {
+    color: hsl(5, 85%, 63%);
+}
+
+.space1 {
+    width: 75%;
+}
+
+.space1 img {
+    width: 600px;
+}
+
+
+.space1 .web3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.space1 .web3 h1 {
+    font-weight: 800;
+    font-size: 45px;
+    width: 39%;
+}
+
+.space1 form h4 {
+    text-align: left;
+    color: hsl(236, 13%, 42%);
+    font-weight: 400;
+}
+
+.space form {
+    width: 60%;
+    text-align: left;
+}
+
+.space1 form button {
+    background-color: hsl(5, 85%, 63%);
+    font-weight: 400;
+    color: white;
+    border: 0px;
+    height: 40px;
+    width: 150px;
+    margin-top: 4%;
+}
+
+.space1 button:hover {
+    background-color: hsl(240, 100%, 5%);
+}
+
+.space {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 5%;
+}
+
+.space2 {
+    margin-right: 20%;
+    width: 35%;
+    background-color: hsl(240, 100%, 5%);
+}
+
+.space2 h1 {
+    color: hsl(35, 77%, 62%);
+    margin-top: 7%;
+    margin-left: 7%;
+    margin-bottom: 10%;
+    font-weight: 800;
+    font-size: 45px;
+}
+
+
+.space2 h3 {
+    color: hsl(36, 100%, 99%);
+    cursor: pointer;
+    margin-left: 7%;
+}
+
+.space2 h3:hover {
+    color: hsl(35, 77%, 62%);
+}
+
+.space2 h4 {
+    color: hsla(0, 0%, 100%, 0.651);
+    width: 90%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 15px;
+    margin-left: 7%;
+    font-weight: 400;
+}
+
+hr {
+    width: 85%;
+    margin-left: 7%;
+    margin-bottom: 9%;
+    margin-top: 9%;
+    background-color: hsl(236, 13%, 42%);
+}
+
+.landscape {
+    display: flex;
+    justify-content: space-evenly;
+    width: 72%;
+    margin-left: 8%;
+}
+
+.land {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.land1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.land2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.jot img {
+    width: 100px;
+}
+
+.jot1 h4 {
+    width: 210px;
+    line-height: 1.3;
+    color: hsl(236, 13%, 42%);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.jot1 h1 {
+    margin-bottom: 5%;
+    color: hsl(236, 13%, 42%);
+    font-weight: 800;
+}
+
+
+.jot1 h3 {
+    cursor: pointer;
+    margin-bottom: 6%;
+}
+
+.jot1 h3:hover {
+    color: hsl(5, 85%, 63%);
+}
+
+
+.jot2 img {
+    width: 100px;
+}
+
+.jot3 h4 {
+    width: 200px;
+    line-height: 1.3;
+    color: hsl(236, 13%, 42%);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.jot3 h1 {
+    margin-bottom: 5%;
+    color: hsl(236, 13%, 42%);
+    font-weight: 800;
+}
+
+
+.jot3 h3 {
+    width: 210px;
+    margin-bottom: 6%;
+    cursor: pointer;
+}
+
+.jot3 h3:hover {
+    color: hsl(5, 85%, 63%);
+}
+
+
+.jot4 img {
+    width: 100px;
+}
+
+.jot5 h4 {
+    width: 220px;
+    line-height: 1.3;
+    color: hsl(236, 13%, 42%);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.jot5 h1 {
+    margin-bottom: 5%;
+    color: hsl(236, 13%, 42%);
+    font-weight: 800;
+}
+
+
+.jot5 h3 {
+    margin-bottom: 6%;
+    cursor: pointer;
+}
+
+.jot5 h3:hover {
+    color: hsl(5, 85%, 63%);
+}
+
+
+@media (max-width:320px) {
+
+    *{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+
+    .container {
+        margin-left: 0%;
+    }
+
+    .bar {
+        display: none;
+    }
+
+    .hamburger {
+        display: contents;
+        margin-left: 90%;
+    }
+
+    .nav {
+        width: 300px;
+        margin-left: 0%;
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+
+
+    .space {
+        display: block;
+        /* padding-left: 1.5%; */
+    }
+
+    .space1 .web3 {
+        display: block;
+    }
+
+    .landscape {
+        display: block;
+    }
+
+    .space1 img {
+        width: 300px;
+    }
+
+ 
+    .space1 .web3 h1{
+        width: 320px;
+    }
+
+    .space1 .web3 h4{
+        margin-bottom: 5%;
+    }
+
+    .space form{
+        width: 320px;
+    }
+
+    .space2{
+        width: 305px;
+        height: 450px;
+        margin-right: 0%;
+        margin-top: 10%;
+        margin-bottom: 20%;
+    }
+
+    .landscape{
+        width: 310px;
+        margin-left: 3%;
+        margin-bottom: 15%;
+    }
+
+    .land{
+        margin-bottom: 10%;
+    }
+
+    .land1{
+        margin-bottom: 10%;
+    }
+
+    .land2{
+        margin-bottom: 10%;
+    }
+
+    .jot img{
+        width: 90px;
+    }
+
+    .jot1{
+        margin-left: 2%;
+    }
+
+    .jot1 h3{
+        margin-bottom: 5%;
+    }
+    
+
+    .jot2 img{
+        width: 90px;
+    }
+
+    .jot3{
+        margin-left: 2%;
+    }
+
+    .jot3 h3{
+        margin-bottom: 5%;
+    }
+
+    .jot4 img{
+        width: 90px;
+    }
+
+    .jot5{
+        margin-left: 2%;
+    }
+
+    .jot5 h3{
+        margin-bottom: 5%;
+    }
+}
+
+@media (max-width:375px){
+    *{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+
+    .container {
+        margin-left: 0%;
+    }
+
+    .bar {
+        display: none;
+    }
+
+    .hamburger {
+        display: contents;
+        margin-left: 100%;
+    }
+
+    .nav {
+        width: 370px;
+        margin-left: 0%;
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+
+
+    .space {
+        display: block;
+        padding-left: 1.5%;
+    }
+
+    .space1 .web3 {
+        display: block;
+    }
+
+    .landscape {
+        display: block;
+    }
+
+    .space1 img {
+        width: 360px;
+    }
+
+    .space1 .web3 h1{
+        width: 320px;
+    }
+
+    .space1 .web3 h4{
+        margin-bottom: 5%;
+    }
+
+    .space form{
+        width: 345px;
+        margin-top: 5%;
+    }
+
+    .space2{
+        width: 320px;
+        height: 450px;
+        margin-right: 0%;
+        margin-left: 5%;
+        margin-top: 10%;
+        margin-bottom: 20%;
+    }
+
+    .landscape{
+        width: 310px;
+        margin-left: 8%;
+        margin-bottom: 15%;
+    }
+
+    .land{
+        margin-bottom: 10%;
+    }
+
+    .land1{
+        margin-bottom: 10%;
+    }
+
+    .land2{
+        margin-bottom: 10%;
+    }
+
+    .jot img{
+        width: 90px;
+    }
+
+    .jot1{
+        margin-left: 2%;
+    }
+
+    .jot1 h3{
+        margin-bottom: 5%;
+    }
+    
+
+    .jot2 img{
+        width: 90px;
+    }
+
+    .jot3{
+        margin-left: 2%;
+    }
+
+    .jot3 h3{
+        margin-bottom: 5%;
+    }
+
+    .jot4 img{
+        width: 90px;
+    }
+
+    .jot5{
+        margin-left: 2%;
+    }
+
+    .jot5 h3{
+        margin-bottom: 5%;
+    }
+}
+
+@media (max-width:425px){
+    *{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+
+    .container {
+        /* margin-left: 5%; */
+    }
+
+    .bar {
+        display: none;
+    }
+
+    .hamburger {
+        display: contents;
+        margin-left: 100%;
+    }
+
+    .nav {
+        width: 370px;
+        margin-left: 0%;
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+
+
+    .space {
+        display: block;
+        padding-left: 1.5%;
+    }
+
+    .space1 .web3 {
+        display: block;
+    }
+
+    .landscape {
+        display: block;
+    }
+
+    .space1 img {
+        width: 360px;
+    }
+
+    .space1 .web3 h1{
+        width: 320px;
+    }
+
+    .space1 .web3 h4{
+        margin-bottom: 5%;
+    }
+
+    .space form{
+        width: 345px;
+        margin-top: 5%;
+    }
+
+    .space2{
+        width: 320px;
+        height: 450px;
+        margin-right: 0%;
+        margin-left: 5%;
+        margin-top: 10%;
+        margin-bottom: 20%;
+    }
+
+    .landscape{
+        width: 310px;
+        margin-left: 8%;
+        margin-bottom: 15%;
+    }
+
+    .land{
+        margin-bottom: 10%;
+    }
+
+    .land1{
+        margin-bottom: 10%;
+    }
+
+    .land2{
+        margin-bottom: 10%;
+    }
+
+    .jot img{
+        width: 90px;
+    }
+
+    .jot1{
+        margin-left: 2%;
+    }
+
+    .jot1 h3{
+        margin-bottom: 5%;
+    }
+    
+
+    .jot2 img{
+        width: 90px;
+    }
+
+    .jot3{
+        margin-left: 2%;
+    }
+
+    .jot3 h3{
+        margin-bottom: 5%;
+    }
+
+    .jot4 img{
+        width: 90px;
+    }
+
+    .jot5{
+        margin-left: 2%;
+    }
+
+    .jot5 h3{
+        margin-bottom: 5%;
+    }
+}
+
+/* @media (max-width:768px){
+
+    .container{
+        margin-left: 0%;
+    }
+    .nav{
+        width: 650px;
+        margin-left: 0%;
+    }
+
+    .space1 img{
+        width: 400px;
+    }
+
+    .space1 .web3{
+        display: block;
+    }
+
+    .space1 .web3 h1{
+        width: 80%;
+    }
+
+    .space1 form {
+       width: 90%;
+    }
+
+    .space2{
+        width: 350px;
+        margin-right: 0%;
+    }
+
+    .landscape{
+        display: block;
+    }
+} */
+
